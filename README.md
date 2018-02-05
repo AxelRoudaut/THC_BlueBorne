@@ -16,20 +16,21 @@ This project is mainly based on the [Armis BlueBorne researches](https://www.arm
 
   ### a. Hardware 
   We are going to use a NRF24L01+ Transceiver Module (with PA+LNA in order to have a better reach) to receive/emit bluetooth signals, connected to a Raspberry Pi 3 as follows:
-  https://www.amazon.fr/Kuman-Emetteur-R%C3%A9cepteur-NRF24L01-Antistatique/dp/B06WD17WLS/ref=sr_1_1?ie=UTF8&qid=1517826874&sr=8-1&keywords=nrf24l01+%2B+pa+%2B+lna
-  https://www.mysensors.org/build/raspberry
-  https://forum.mysensors.org/topic/2437/step-by-step-procedure-to-connect-the-nrf24l01-to-the-gpio-pins-and-use-the-raspberry-as-a-serial-gateway-mysensors-1-x
-  https://rlogiacco.wordpress.com/2014/02/26/nrf24-on-raspberry-pi/
+   - [NRF24L01+ ](https://www.amazon.fr/Kuman-Emetteur-R%C3%A9cepteur-NRF24L01-Antistatique/dp/B06WD17WLS/ref=sr_1_1?ie=UTF8&qid=1517826874&sr=8-1&keywords=nrf24l01+%2B+pa+%2B+lna)
+   - [Source 1](https://www.mysensors.org/build/raspberry)
+   - [Source 2](https://forum.mysensors.org/topic/2437/step-by-step-procedure-to-connect-the-nrf24l01-to-the-gpio-pins-and-use-the-raspberry-as-a-serial-gateway-mysensors-1-x)
+   - [Source 3](https://rlogiacco.wordpress.com/2014/02/26/nrf24-on-raspberry-pi/)
 
   ### b. Firmware
   We are going to use existing bluetooth sniffer project:
-  https://github.com/ArmisSecurity/blueborne/tree/master/nRF24_BDADDR_Sniffer
-  https://github.com/DigitalSecurity/raspjack
-  https://github.com/yetifrisstlama/nRF24L01-sniffer
+  - [Blueborne](https://github.com/ArmisSecurity/blueborne/tree/master/nRF24_BDADDR_Sniffer)
+  - [Raspjack](https://github.com/DigitalSecurity/raspjack)
+  - [nRF24L01](https://github.com/yetifrisstlama/nRF24L01-sniffer)
     
   ### c. BlueBorne vulnerability scanner
-  Bluetooth scanner for local devices that may be vulnerable to Blueborne exploit
-  https://github.com/hook-s3c/blueborne-scanner
+Bluetooth scanner for local devices that may be vulnerable to Blueborne exploit
+  - [Blueborne scanner](https://github.com/hook-s3c/blueborne-scanner)
+
     
 ## 2. Exploits
 
@@ -106,6 +107,7 @@ Sources:
 Our contributions:
 
 If we have enough time, we will try to reproduce Bluetooth Pineapple vulnerability using 'Windows 10 IoT Core Dashboard' on a Raspberry Pi 3, or non patch Windows on an old PC.
+
   
   ## 3. Protections and Mitigations
   Armis Guide: [PROTECTING THE ENTERPRISE FROM BLUEBORNE](http://go.armis.com/hubfs/BlueBorne%20Technical%20White%20Paper.pdf)
