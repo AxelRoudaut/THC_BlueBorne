@@ -56,7 +56,8 @@ Sources:
   - [Blueborne CVE-2017-1000251 PoC for linux machines](https://github.com/ojasookert/CVE-2017-0781)
   
 Our contribution:
-We are going to reproduce it using a vulnerable Linux image on a Raspberry Pi.
+
+We are going to reproduce it using a vulnerable Linux image on a Raspberry Pi. We need a Linux Kernel earlier than 4.14  which can run on a Raspberry Pi 3 and run BlueZ for bluetooth management. Therfore we will test our exploitation using ARMv7 which is an Arch Linux Os build for Raspberry Pi 3.
   
   ### c. BlueBorne attack on Android
   
@@ -88,7 +89,8 @@ Sources:
   - [littl tools](https://github.com/marsyy/littl_tools)
   
 Our contribution:
-We are going to reproduce this attacks using Samsung S3 and/or Sony Xperia 2.
+
+We are going to reproduce this attacks using not patched Samsung Galaxy S3 and/or Sony Xperia 2.
   
   ### d. BlueBorne attack on Windows
   
@@ -101,8 +103,9 @@ Sources:
   - [Armis BlueBorne](https://www.armis.com/blueborne/)
   - [BlueBorne - Windows MiTM Demo](https://www.youtube.com/watch?v=QrHbZPO9Rnc)
   
-Our contribution:
-TODO
+Our contributions:
+
+If we have enough time, we will try to reproduce Bluetooth Pineapple vulnerability using 'Windows 10 IoT Core Dashboard' on a Raspberry Pi 3, or non patch Windows on an old PC.
   
   ## 3. Protections and Mitigations
   Armis Guide: [PROTECTING THE ENTERPRISE FROM BLUEBORNE](http://go.armis.com/hubfs/BlueBorne%20Technical%20White%20Paper.pdf)
