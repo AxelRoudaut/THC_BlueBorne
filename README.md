@@ -2,7 +2,15 @@
 Projet long TLS-SEC pour la réalisation d'un challenge "tuto" lors de la Toulouse Hacking Convention. Exploitation de la faille Blueborne.
 
 In this project, we are going to reproduce a POC of the bluetooth vulnerability. The main purpuse is to achieve to spread a worm using bluetooth communications using Linux and Android systems (and Windows system if we have enough time).
-This project is mainly based on the Armis BlueBorne researches https://www.armis.com/blueborne/ and several open source github repositories.
+This project is mainly based on the [Armis BlueBorne researches](https://www.armis.com/blueborne/) and several open source github repositories.
+
+## 0. Project progress
+
+- [ ] Bluetooth Sniffer
+- [ ] Vulnerability Scanner
+- [ ] Android Exploit
+- [ ] Linux Exploit
+- [ ] Windows Exploit
 
 ## 1. Bluetooth Sniffer
 
