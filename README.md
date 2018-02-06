@@ -16,7 +16,7 @@ This project is mainly based on the [Armis BlueBorne researches](https://www.arm
 
   ### a. Hardware 
   We are going to use a NRF24L01+ Transceiver Module (with PA+LNA in order to have a better reach) to receive/emit bluetooth signals, connected to a Raspberry Pi 3 as follows:
-   - [NRF24L01+ ](https://www.amazon.fr/Kuman-Emetteur-R%C3%A9cepteur-NRF24L01-Antistatique/dp/B06WD17WLS/ref=sr_1_1?ie=UTF8&qid=1517826874&sr=8-1&keywords=nrf24l01+%2B+pa+%2B+lna)
+   - [The transceiver we use NRF24L01+ PA+LNA](https://www.amazon.fr/Kuman-Emetteur-R%C3%A9cepteur-NRF24L01-Antistatique/dp/B06WD17WLS/ref=sr_1_1?ie=UTF8&qid=1517826874&sr=8-1&keywords=nrf24l01+%2B+pa+%2B+lna)
    - [Source 1](https://www.mysensors.org/build/raspberry)
    - [Source 2](https://forum.mysensors.org/topic/2437/step-by-step-procedure-to-connect-the-nrf24l01-to-the-gpio-pins-and-use-the-raspberry-as-a-serial-gateway-mysensors-1-x)
    - [Source 3](https://rlogiacco.wordpress.com/2014/02/26/nrf24-on-raspberry-pi/)
@@ -25,7 +25,7 @@ This project is mainly based on the [Armis BlueBorne researches](https://www.arm
   We are going to use existing bluetooth sniffer project:
   - [Blueborne](https://github.com/ArmisSecurity/blueborne/tree/master/nRF24_BDADDR_Sniffer)
   - [Raspjack](https://github.com/DigitalSecurity/raspjack)
-  - [nRF24L01](https://github.com/yetifrisstlama/nRF24L01-sniffer)
+  - [nRF24L01-sniffer](https://github.com/yetifrisstlama/nRF24L01-sniffer)
     
   ### c. BlueBorne vulnerability scanner
 Bluetooth scanner for local devices that may be vulnerable to Blueborne exploit
@@ -56,7 +56,7 @@ Sources:
   - [Bluetooth Worm and Linux Exploit Revealed by Armis](https://www.armis.com/armis-demonstrates-bluetooth-worm-and-linux-exploit-at-black-hat/)
   - [Blueborne CVE-2017-1000251 PoC for linux machines](https://github.com/ojasookert/CVE-2017-0781)
   
-Our contribution:
+Our contributions:
 
 We are going to reproduce it using a vulnerable Linux image on a Raspberry Pi. We need a Linux Kernel earlier than 4.14  which can run on a Raspberry Pi 3 and run BlueZ for bluetooth management. Therfore we will test our exploitation using ARMv7 which is an Arch Linux Os build for Raspberry Pi 3.
   
@@ -89,7 +89,7 @@ Sources:
   - [CVE-2017-0781 PoC](https://github.com/ojasookert/CVE-2017-0781)
   - [littl tools](https://github.com/marsyy/littl_tools)
   
-Our contribution:
+Our contributions:
 
 We are going to reproduce this attacks using not patched Samsung Galaxy S3 and/or Sony Xperia 2.
   
