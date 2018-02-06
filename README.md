@@ -6,11 +6,11 @@ This project is mainly based on the [Armis BlueBorne researches](https://www.arm
 
 ## Dependencies
 
-'''
+```
 sudo apt-get install "$(cat apt-packages.txt)"
 sudo pip install -r requirements.txt
 [!] Pwntools does not support 32-bit Python.  Use a 64-bit release.
-'''
+```
 
 ## 0. Project progress
 
