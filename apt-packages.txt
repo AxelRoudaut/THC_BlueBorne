@@ -1,4 +1,5 @@
 git
+vim
 python-pip
 libbluetooth-dev
 bluetooth
