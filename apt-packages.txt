@@ -1,3 +1,4 @@
+git
 python-pip
 libbluetooth-dev
 bluetooth
