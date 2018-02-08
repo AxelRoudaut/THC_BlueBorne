@@ -17,6 +17,12 @@ cd <Directory-you-want>
 export PYTHONPATH=$PYTHONPATH:$PWD
 ```
 
+To run bluetooth from the Raspberry:
+```
+sudo systemctl start bluetooth.service
+sudo bluetoothctl
+```
+
 ## 0. Project progress
 
 - [ ] Bluetooth Sniffer
