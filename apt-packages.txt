@@ -7,3 +7,4 @@ bluez
 blueman
 pi-bluetooth
 libffi-dev
+tshark
