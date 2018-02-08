@@ -9,7 +9,7 @@ This project is mainly based on the [Armis BlueBorne researches](https://www.arm
 On the Raspbery Pi 3 you will use to attack
 
 ```
-sudo apt-get install "$(cat apt-packages.txt)"
+sudo apt-get install git vim python-pip libbluetooth-dev bluetooth bluez blueman pi-bluetooth libffi-dev
 sudo pip install -r requirements.txt
 [!] Pwntools does not support 32-bit Python.  Use a 64-bit release.
 
