@@ -1,0 +1,3 @@
+To run bluetooth from the Raspberry:
+	sudo systemctl start bluetooth.service
+	sudo bluetoothctl

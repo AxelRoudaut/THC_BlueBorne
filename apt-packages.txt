@@ -1,0 +1,9 @@
+git
+vim
+python-pip
+libbluetooth-dev
+bluetooth
+bluez
+blueman
+pi-bluetooth
+libffi-dev

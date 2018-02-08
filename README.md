@@ -4,6 +4,19 @@
 In this project, we are going to reproduce a POC of the bluetooth vulnerability. The main purpuse is to achieve to spread a worm using bluetooth communications using Linux and Android systems (and Windows system if we have enough time).
 This project is mainly based on the [Armis BlueBorne researches](https://www.armis.com/blueborne/) and several open source github repositories.
 
+## Dependencies
+
+On the Raspbery Pi 3 you will use to attack
+
+```
+sudo apt-get install "$(cat apt-packages.txt)"
+sudo pip install -r requirements.txt
+[!] Pwntools does not support 32-bit Python.  Use a 64-bit release.
+
+cd <Directory-you-want>
+export PYTHONPATH=$PYTHONPATH:$PWD
+```
+
 ## 0. Project progress
 
 - [ ] Bluetooth Sniffer
