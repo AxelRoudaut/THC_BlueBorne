@@ -77,7 +77,8 @@ The following directory contains a PoC code for the Linux-RCE vulnerability (CVE
   
 **Our contributions:**
 
-We are going to reproduce it using a vulnerable Linux image on a Raspberry Pi. We need a Linux Kernel earlier than 4.14  which can run on a Raspberry Pi 3 and run BlueZ for bluetooth management. Therfore we will test our exploitation using ARMv7 which is an Arch Linux Os build for Raspberry Pi 3.
+We are going to reproduce it using a vulnerable Linux image on a Raspberry Pi. We need a Linux Kernel earlier than 4.14  which can run on a Raspberry Pi 3 and run BlueZ for bluetooth management. Therfore we will test our exploitation using a VM Ubuntu 16.4 with kernel downgraded to 4.13 (we may also try with ARMv7 which is an Arch Linux Os build for Raspberry Pi 3).
+[Enabling Bluetooth in VirtualBox](https://scribles.net/enabling-bluetooth-in-virtualbox/)
   
   ### c. BlueBorne attack on Android
   
