@@ -73,7 +73,8 @@ The following directory contains a PoC code for the Linux-RCE vulnerability (CVE
   - [White paper](https://go.armis.com/hubfs/ExploitingBlueBorneLinuxBasedIoTDevices.pdf?t=1517293112971)
   - [Blueborne explained at BlackHat EU 2017](https://www.youtube.com/watch?v=WWQTlogqF1I)
   - [Bluetooth Worm and Linux Exploit Revealed by Armis](https://www.armis.com/armis-demonstrates-bluetooth-worm-and-linux-exploit-at-black-hat/)
-  - [Blueborne CVE-2017-1000251 PoC for linux machines](https://github.com/hayzamjs/Blueborne-CVE-2017-1000251)
+  - [Blueborne CVE-2017-1000251 PoC for linux machines](https://github.com/own2pwn/blueborne-CVE-2017-1000251-POC)
+  - [Exploit CVE-2017-1000251](https://gitlab.com/marcinguy/kernel-exploitation/tree/master)
   
 **Our contributions:**
 
