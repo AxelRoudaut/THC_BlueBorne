@@ -1,0 +1,7 @@
+[submodule "Sniffer/raspjack"]
+	path = Sniffer/raspjack
+	url = https://github.com/DigitalSecurity/raspjack.git
+	ignore = dirty
+[submodule "Sniffer/nRF24L01-sniffer"]
+	path = Sniffer/nRF24L01-sniffer
+	url = https://github.com/yetifrisstlama/nRF24L01-sniffer.git
