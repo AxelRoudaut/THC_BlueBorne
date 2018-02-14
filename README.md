@@ -40,6 +40,20 @@ sudo bluetoothctl
    - [Step-by-step procedure to connect the NRF24L01+ to the GPIO pins and use the Raspberry as a Serial Gateway](https://forum.mysensors.org/topic/2437/step-by-step-procedure-to-connect-the-nrf24l01-to-the-gpio-pins-and-use-the-raspberry-as-a-serial-gateway-mysensors-1-x)
    - [nRF24 on Raspberry Pi](https://rlogiacco.wordpress.com/2014/02/26/nrf24-on-raspberry-pi/)
 
+Connect the following pins (rasp) to the associated pins (nrf24):
+
+|   RASP      | NRF24L01|
+|-------------|---------|
+| 17 3.3V PWR |  2 V+   |
+| 18 GPIO24   |  8 IRQ  |
+| 19 SPI0 MOSI|  6 MOSI |
+| 20 GND      |  1 GND  |
+| 21 SPI0 MISO|  7 MISO |
+| 22 SPI0 CS0 |  3 CE   |
+| 23 SPI0 SCLK|  5 SCK  |
+| 24 SPi0 CS0 |  4 CSN  |
+
+
   ### b. Firmware
   We are going to use existing bluetooth sniffer project:
   - [Blueborne-nRF24_BDADDR_Sniffer](https://github.com/ArmisSecurity/blueborne/tree/master/nRF24_BDADDR_Sniffer)
