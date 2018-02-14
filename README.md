@@ -36,14 +36,14 @@ sudo bluetoothctl
   ### a. Hardware 
   We are going to use a NRF24L01+ Transceiver Module (with PA+LNA in order to have a better reach) to receive/emit bluetooth signals, connected to a Raspberry Pi 3 as follows:
    - [The transceiver we use NRF24L01+ PA+LNA](https://www.amazon.fr/Kuman-Emetteur-R%C3%A9cepteur-NRF24L01-Antistatique/dp/B06WD17WLS/ref=sr_1_1?ie=UTF8&qid=1517826874&sr=8-1&keywords=nrf24l01+%2B+pa+%2B+lna)
-   - [Source 1](https://www.mysensors.org/build/raspberry)
-   - [Source 2](https://forum.mysensors.org/topic/2437/step-by-step-procedure-to-connect-the-nrf24l01-to-the-gpio-pins-and-use-the-raspberry-as-a-serial-gateway-mysensors-1-x)
-   - [Source 3](https://rlogiacco.wordpress.com/2014/02/26/nrf24-on-raspberry-pi/)
+   - [Building a Raspberry Pi Gateway](https://www.mysensors.org/build/raspberry)
+   - [Step-by-step procedure to connect the NRF24L01+ to the GPIO pins and use the Raspberry as a Serial Gateway](https://forum.mysensors.org/topic/2437/step-by-step-procedure-to-connect-the-nrf24l01-to-the-gpio-pins-and-use-the-raspberry-as-a-serial-gateway-mysensors-1-x)
+   - [nRF24 on Raspberry Pi](https://rlogiacco.wordpress.com/2014/02/26/nrf24-on-raspberry-pi/)
 
   ### b. Firmware
   We are going to use existing bluetooth sniffer project:
-  - [Blueborne](https://github.com/ArmisSecurity/blueborne/tree/master/nRF24_BDADDR_Sniffer)
-  - [Raspjack](https://github.com/DigitalSecurity/raspjack)
+  - [Blueborne-nRF24_BDADDR_Sniffer](https://github.com/ArmisSecurity/blueborne/tree/master/nRF24_BDADDR_Sniffer)
+  - [Raspjack-NRF24](https://github.com/DigitalSecurity/raspjack)
   - [nRF24L01-sniffer](https://github.com/yetifrisstlama/nRF24L01-sniffer)
     
   ### c. BlueBorne vulnerability scanner
@@ -73,7 +73,8 @@ The following directory contains a PoC code for the Linux-RCE vulnerability (CVE
   - [White paper](https://go.armis.com/hubfs/ExploitingBlueBorneLinuxBasedIoTDevices.pdf?t=1517293112971)
   - [Blueborne explained at BlackHat EU 2017](https://www.youtube.com/watch?v=WWQTlogqF1I)
   - [Bluetooth Worm and Linux Exploit Revealed by Armis](https://www.armis.com/armis-demonstrates-bluetooth-worm-and-linux-exploit-at-black-hat/)
-  - [Blueborne CVE-2017-1000251 PoC for linux machines](https://github.com/hayzamjs/Blueborne-CVE-2017-1000251)
+  - [Blueborne CVE-2017-1000251 PoC for linux machines](https://github.com/own2pwn/blueborne-CVE-2017-1000251-POC)
+  - [Exploit CVE-2017-1000251](https://gitlab.com/marcinguy/kernel-exploitation/tree/master)
   
 **Our contributions:**
 
