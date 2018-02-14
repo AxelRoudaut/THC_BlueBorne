@@ -58,6 +58,7 @@ Connect the following pins (rasp) to the associated pins (nrf24):
   We are going to use existing bluetooth sniffer project:
   - [Blueborne-nRF24_BDADDR_Sniffer](https://github.com/ArmisSecurity/blueborne/tree/master/nRF24_BDADDR_Sniffer)
   - [Raspjack-NRF24](https://github.com/DigitalSecurity/raspjack)
+  - [Promiscuity is the nRF24L01+'s Duty](http://travisgoodspeed.blogspot.fr/2011/02/promiscuity-is-nrf24l01s-duty.html)
   - [nRF24L01-sniffer](https://github.com/yetifrisstlama/nRF24L01-sniffer)
     
   ### c. BlueBorne vulnerability scanner
