@@ -89,7 +89,8 @@ The following directory contains a PoC code for the Linux-RCE vulnerability (CVE
   - [Bluetooth Worm and Linux Exploit Revealed by Armis](https://www.armis.com/armis-demonstrates-bluetooth-worm-and-linux-exploit-at-black-hat/)
   - [Blueborne CVE-2017-1000251 PoC for linux machines](https://github.com/own2pwn/blueborne-CVE-2017-1000251-POC)
   - [Exploit CVE-2017-1000251](https://gitlab.com/marcinguy/kernel-exploitation/tree/master)
-  
+  - [littl tools](https://github.com/marsyy/littl_tools)  
+
 **Our contributions:**
 
 We are going to reproduce it using a vulnerable Linux image on a Raspberry Pi. We need a Linux Kernel earlier than 4.14  which can run on a Raspberry Pi 3 and run BlueZ for bluetooth management. Therfore we will test our exploitation using a VM Ubuntu 16.4 with kernel downgraded to 4.13 (we may also try with ARMv7 which is an Arch Linux Os build for Raspberry Pi 3).
@@ -122,7 +123,6 @@ All Android phones, tablets, and wearables (except those using only Bluetooth Lo
   - [Another CVE-2017-0785 PoC](https://github.com/Unknown025/CVE-2017-0785)
   - [Implementation of the CVE-2017-0781 Android heap overflow vulnerability](https://github.com/OtherChen32/CVE-2017-0781)
   - [CVE-2017-0781 PoC](https://github.com/ojasookert/CVE-2017-0781)
-  - [littl tools](https://github.com/marsyy/littl_tools)
   
 **Our contributions:**
 
