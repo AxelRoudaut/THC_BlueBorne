@@ -3,7 +3,7 @@ import sys
 import time
 import random
 
-from ctypes import cdll, c_int, c_char_p, c_uint32, c_int, c_void_p, byref, c_uint8
+from ctypes import *
 
 import bitarray
 import spidev
@@ -63,6 +63,11 @@ class NRF24BREDR(object):
     
     def write_reg_multi_bytes(self, reg, data, pad_len):
         write = list(data.ljust(pad_len, b'\x00'))
+        b = write
+        a= [W_REGISTER | (REGISTER_MASK & reg)]
+        print(a)
+        print(b)
+        print(a+b)
         self.spi.xfer2([W_REGISTER | (REGISTER_MASK & reg)] + write)
 
     def read_reg(self, reg, size=1):
