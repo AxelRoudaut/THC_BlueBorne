@@ -42,16 +42,16 @@ sudo bluetoothctl
 
 Connect the following pins (rasp) to the associated pins (nrf24):
 
-|   RASP      | NRF24L01|
-|-------------|---------|
-| 17 3.3V PWR |  2 V+   |
-| 18 GPIO24   |  8 IRQ  |
-| 19 SPI0 MOSI|  6 MOSI |
-| 20 GND      |  1 GND  |
-| 21 SPI0 MISO|  7 MISO |
-| 22 SPI0 CS0 |  3 CE   |
-| 23 SPI0 SCLK|  5 SCK  |
-| 24 SPi0 CS0 |  4 CSN  |
+|   RASP              | NRF24L01|
+|---------------------|---------|
+| 17 3.3V PWR         |  2 V+   |
+| 18 GPIO24           |  8 IRQ  |
+| 19 GIO 10-SPI0 MOSI |  6 MOSI |
+| 20 GND              |  1 GND  |
+| 21 GPIO 9-SPI0 MISO |  7 MISO |
+| 22 GPIO25           |  3 CE   |
+| 23 GPIO 11-SPI0 SCLK|  5 SCK  |
+| 24 GPIO 8-SPi0 CS0  |  4 CSN  |
 
 
   ### b. Firmware
