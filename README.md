@@ -71,7 +71,7 @@ Bluetooth scanner for local devices that may be vulnerable to Blueborne exploit
 This direcotory contains a general testing framework to send and receive raw l2cap messages (using scapy). It is used to establish L2CAP connections, and allows the ability to control all l2cap messages sent in the process of creating the connection.
 
 **Sources:**
-  - [Original Armis code](https://github.com/ArmisSecurity/blueborne/tree/master/l2cap_infra)
+  - [ArmisSecurity-BlueBorne-l2cap_infra](https://github.com/ArmisSecurity/blueborne/tree/master/l2cap_infra)
   
   ### b. BlueBorne attack on Linux
 - **Information leak vulnerability (CVE-2017-1000250)**
@@ -83,7 +83,7 @@ This direcotory contains a general testing framework to send and receive raw l2c
 The following directory contains a PoC code for the Linux-RCE vulnerability (CVE-2017-1000251). The exploits are specifically tailored for specific fw images of two devices: The Amazon Echo and Samsung Gear S3.
 
 **Sources:**
-  - [Orginal Armis code](https://github.com/ArmisSecurity/blueborne/tree/master/linux-bluez)
+  - [ArmisSecurity-BlueBorne-linux_bluez](https://github.com/ArmisSecurity/blueborne/tree/master/linux-bluez)
   - [White paper](https://go.armis.com/hubfs/ExploitingBlueBorneLinuxBasedIoTDevices.pdf?t=1517293112971)
   - [Blueborne explained at BlackHat EU 2017](https://www.youtube.com/watch?v=WWQTlogqF1I)
   - [Bluetooth Worm and Linux Exploit Revealed by Armis](https://www.armis.com/armis-demonstrates-bluetooth-worm-and-linux-exploit-at-black-hat/)
@@ -112,7 +112,7 @@ Man-in-The-Middle (MiTM) attacks allow the attacker to intercept and intervene i
 All Android phones, tablets, and wearables (except those using only Bluetooth Low Energy) of all versions are affected by four vulnerabilities found in the Android operating system, two of which allow remote code execution (CVE-2017-0781 and CVE-2017-0782), one results in information leak (CVE-2017-0785) and the last allows an attacker to perform a Man-in-The-Middle attack (CVE-2017-0783)
   
 **Sources:**
-  - [Original Armis code](https://github.com/ArmisSecurity/blueborne/tree/master/android)
+  - [ArmisSecurity-BlueBorne-Android](https://github.com/ArmisSecurity/blueborne/tree/master/android)
   - [White paper](https://go.armis.com/hubfs/BlueBorne%20-%20Android%20Exploit.pdf)
   - [Blueborne - Android Take Over Demo](https://www.youtube.com/watch?v=Az-l90RCns8)
   - [BlueBorne explained at Hacktivity 2017](https://www.youtube.com/watch?v=NBAqzGtz9ts&t=3s)
