@@ -60,6 +60,11 @@ Connect the following pins (rasp) to the associated pins (nrf24):
   - [Raspjack-NRF24](https://github.com/DigitalSecurity/raspjack)
   - [Promiscuity is the nRF24L01+'s Duty](http://travisgoodspeed.blogspot.fr/2011/02/promiscuity-is-nrf24l01s-duty.html)
   - [nRF24L01-sniffer](https://github.com/yetifrisstlama/nRF24L01-sniffer)
+  
+Notice:
+  In order to find where to copy .lua wireshark plugin, you will see the paths for your system in the Wireshark GUI
+  `Help -> About Wireshark -> Folders -> Personal Plugin` 
+  The paths might be different on your system due to different compile time options for different Linux distributions. 
     
   ### c. BlueBorne vulnerability scanner
 Bluetooth scanner for local devices that may be vulnerable to Blueborne exploit
