@@ -5,6 +5,13 @@
 [submodule "Sniffer/nRF24L01-sniffer"]
 	path = Sniffer/nRF24L01-sniffer
 	url = https://github.com/yetifrisstlama/nRF24L01-sniffer.git
+[submodule "Sniffer/Armis_nRF24_BDADDR_Sniffer"]
+	path = Sniffer/Armis_nRF24_BDADDR_Sniffer
+	url = https://github.com/ArmisSecurity/blueborne/tree/master/nRF24_BDADDR_Sniffer
 [submodule "Linux_Exploit/littl_tools"]
 	path = Linux_Exploit/littl_tools
 	url = https://github.com/marsyy/littl_tools.git
+
+[submodule "Sniffer/Armis_nRF24_BDADDR_Sniffer/py-spidev"]
+	path = Sniffer/Armis_nRF24_BDADDR_Sniffer/py-spidev
+	url = https://github.com/doceme/py-spidev.git
