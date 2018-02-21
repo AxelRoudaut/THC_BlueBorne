@@ -15,3 +15,6 @@
 [submodule "Sniffer/Armis_nRF24_BDADDR_Sniffer/py-spidev"]
 	path = Sniffer/Armis_nRF24_BDADDR_Sniffer/py-spidev
 	url = https://github.com/doceme/py-spidev.git
+[submodule "Sniffer/Armis_nRF24_BDADDR_Sniffer/libbtbb"]
+	path = Sniffer/Armis_nRF24_BDADDR_Sniffer/libbtbb
+	url = https://github.com/greatscottgadgets/libbtbb.git
