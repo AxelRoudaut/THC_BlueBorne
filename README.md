@@ -86,6 +86,12 @@ This direcotory contains a general testing framework to send and receive raw l2c
 - **A stack overflow in BlueZ (CVE-2017-1000251)**
   This vulnerability was found in the Bluetooth stack of the Linux Kernel, which is the very core of the operating system. An internal flaw in the L2CAP (Logical Link Control and Adaptation Protocol) that is used to connect between two devices causes a memory corruption. An attacker can use this memory corruption to gain full control of the device.
   
+- **Info Leak in the Linux Kernel via Bluetooth (CVE-2017-1000410)**
+This vulnerability lies in the processing of incoming L2CAP commands - ConfigRequest, and ConfigResponse messages.
+This info leak is a result of uninitialized stack variables that may be returned to an attacker in their uninitialized state.
+By manipulating the code flows that precede the handling of these configuration messages, an attacker can also gain some control over which data will be held in the uninitialized stack variables. This can allow him to bypass KASLR, and stack canaries protection - as both pointers and stack canaries may be leaked in this manner. Combining this vulnerability (for example) with the previously disclosed
+RCE vulnerability in L2CAP configuration parsing (CVE-2017-1000251) may allow an attacker to exploit the RCE against kernels which were built with the above mitigations.
+  
 The following directory contains a PoC code for the Linux-RCE vulnerability (CVE-2017-1000251). The exploits are specifically tailored for specific fw images of two devices: The Amazon Echo and Samsung Gear S3.
 
 **Sources:**
