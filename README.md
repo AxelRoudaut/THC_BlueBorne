@@ -2,7 +2,7 @@
 "Projet long" TLS-SEC: realization of a tutorial challenge for the Toulouse Hacking Convention. Exploit of the bluetooth vulnerability called Blueborne.
 
 In this project, we are going to reproduce a POC of the bluetooth vulnerability. The main purpuse is to achieve to spread a worm using bluetooth communications using Linux and Android systems (and Windows system if we have enough time).
-This project is mainly based on the [Armis BlueBorne researches](https://www.armis.com/blueborne/) and several open source github repositories.
+This project is mainly based on the [Armis BlueBorne researches](https://www.armis.com/blueborne/) (and here the [White Paper](http://go.armis.com/hubfs/BlueBorne%20Technical%20White%20Paper-1.pdf?t=1517293112971)) and several open source github repositories.
 
 ## Dependencies
 
