@@ -138,9 +138,10 @@ Challenge 2 : Explications et Démonstration de cette vulnérabilité sur [https
   - [littl tools](https://github.com/marsyy/littl_tools)  
 
 
-  ## Protections and Mitigations
+## Protections and Mitigations
   Armis Guide: [PROTECTING THE ENTERPRISE FROM BLUEBORNE](http://go.armis.com/hubfs/BlueBorne%20Technical%20White%20Paper.pdf)
   
-  ps: Vous trouverez les sources pour plein d'autres exploitations Bluetooth sur le [wiki de ce répo](https://github.com/AxelRoudaut/THC_BlueBorne/wiki). 
+PS: Vous trouverez les sources pour plein d'autres exploitations Bluetooth sur le [wiki de ce répo](https://github.com/AxelRoudaut/THC_BlueBorne/wiki). 
     
     
+

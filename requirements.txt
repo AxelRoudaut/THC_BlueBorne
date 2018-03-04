@@ -1,4 +1,0 @@
-pybluez
-pwn
-scapy
-hexdump
