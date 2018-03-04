@@ -8,6 +8,9 @@ Les 2 vulnérabilités présentées ici sont présentes uniquement pour les syst
 ## 1. Installation
 
 Pour la démonstration de ces 2 vulnérabilités nous aurons besoins de 2 systèmes Linux distincts et 2 interfaces Bluetooth.
+Pour ma part j'ai utilisé comme système d'attaque une Raspberry Pi avec un dongle bluetooth que je contrôle par ssh avec une VM Kali ainsi qu'une VM Ubuntu (configurée comme ci-dessous) avec un 2eme dongle Bluetooth comme système victime.
+
+Paquets requis:
 ```
 sudo apt-get install git vim libbluetooth-dev bluetooth bluez blueman libffi-dev libssl-dev build-essential
 (si raspberry pi : installer également le paquet pi-bluetooth)
