@@ -126,7 +126,7 @@ Challenge 1 : Explications et Démonstration de cette vulnérabilité sur [https
 - **A stack overflow in BlueZ (CVE-2017-1000251)**
   This vulnerability was found in the Bluetooth stack of the Linux Kernel, which is the very core of the operating system. An internal flaw in the L2CAP (Logical Link Control and Adaptation Protocol) that is used to connect between two devices causes a memory corruption. An attacker can use this memory corruption to gain full control of the device.
 
-Challenge 2 : Explications et Démonstration de cette vulnérabilité sur [https://github.com/AxelRoudaut/THC_BlueBorne/edit/master/DOS_CVE-2017-1000251].
+Challenge 2 : Explications et Démonstration de cette vulnérabilité sur [https://github.com/AxelRoudaut/THC_BlueBorne/tree/master/DOS_CVE-2017-10002501].
 
 **Sources:**
   - [ArmisSecurity-BlueBorne-linux_bluez](https://github.com/ArmisSecurity/blueborne/tree/master/linux-bluez)
