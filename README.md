@@ -122,12 +122,12 @@ Remarque : Pour faciliter les connections ssh : [How To Set Up SSH Keys](https:/
 - **Information leak vulnerability (CVE-2017-1000250)**
   Tous les périphériques Linux exécutant BlueZ sont affectés. Cette vulnérabilité réside dans le serveur SDP chargé d'identifier d'autres services utilisant Bluetooth autour de l'appareil. La faille permet à l'attaquant d'envoyer un ensemble de requêtes personnalisées au serveur, lui faisant divulguer des bits de mémoire en réponse. Cela peut être utilisé par un attaquant pour exposer des données sensibles du processus Bluetooth qui peuvent également contenir des clés de cryptage des communications Bluetooth. Ceux-ci peuvent être utilisés par l'attaquant pour initier une attaque qui ressemble beaucoup à une attaqua *HeartBleed*.
  
-**Challenge 1** : Explications et Démonstration de cette vulnérabilité sur [https://github.com/AxelRoudaut/THC_BlueBorne/edit/master/LEAK_CVE-2017-1000250].
+**Challenge 1** : Explications et Démonstration de cette vulnérabilité sur [LEAK_CVE-2017-1000250](https://github.com/AxelRoudaut/THC_BlueBorne/edit/master/LEAK_CVE-2017-1000250).
   
 - **A stack overflow in BlueZ (CVE-2017-1000251)**
  Cette vulnérabilité a été trouvée dans la pile Bluetooth du noyau Linux, qui est le noyau même du système d'exploitation. Une faille interne dans le protocole L2CAP (Logical Link Control and Adaptation Protocol) utilisée pour se connecter entre deux périphériques provoque une corruption de la mémoire. Un attaquant peut utiliser cette corruption de mémoire pour obtenir le contrôle total de l'appareil. Cela fournit à un attaquant un exploit au niveau du noyau complet et fiable pour tout périphérique compatible Bluetooth sous Linux, ne nécessitant aucune étape supplémentaire. De plus, chaque hôte compromis peut être utilisé pour lancer des attaques secondaires, ce qui rend cette vulnérabilité vermifuge.
 
-**Challenge 2** : Explications et Démonstration de cette vulnérabilité sur [https://github.com/AxelRoudaut/THC_BlueBorne/tree/master/DOS_CVE-2017-10002501].
+**Challenge 2** : Explications et Démonstration de cette vulnérabilité sur [DOS_CVE-2017-10002501](https://github.com/AxelRoudaut/THC_BlueBorne/tree/master/DOS_CVE-2017-10002501).
 
 **Sources:**
   - [ArmisSecurity-BlueBorne-linux_bluez](https://github.com/ArmisSecurity/blueborne/tree/master/linux-bluez)
