@@ -25,6 +25,7 @@ Pour voir et contrôler les interfaces Bluetooth:
 hciconfig -a
 sudo bluetoothctl
 ```
+[Comment activer le Bluetooth avec VirtualBox](https://scribles.net/enabling-bluetooth-in-virtualbox/)
 
 ### Configuration du système cible
 
