@@ -146,5 +146,5 @@ PS: Vous trouverez les sources pour plein d'autres exploitations Bluetooth sur l
 
 Si vous êtes interressé par un tuto d'exploitation de BlueBorne sur Android, jettez un coup d'oeil au répo de mon collègue : https://github.com/2Dai/Bluesploit
     
-    
+Encore plus d'attaques sur les objets connectés sur le répo d'une autre collègue : https://github.com/lachauve/DolphinAttack
 
