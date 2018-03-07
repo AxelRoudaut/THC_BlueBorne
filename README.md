@@ -5,6 +5,10 @@ Les 2 vulnérabilités présentées ici sont présentes uniquement pour les syst
 - La première vulnérabilité est la CVE-2017-1000250 consistant en une fuite de donnée de la *Heap* par l'implémentation d'une fonction du protocole SDP et pouvant conduire à la divulgation de données hautement sensibles.
 - La seconde vulnérabilité est la CVE-2017-1000251 consistant au déni de service (voir du contôle distant) d'un système par un *buffer overflow* provoqué par la mauvaise implémentation d'une fonction du protocole L2CAP.
 
+![alt text](https://github.com/AxelRoudaut/THC_BlueBorne/blob/master/images/bluetooth_stack.PNG)
+
+![alt text](https://github.com/AxelRoudaut/THC_BlueBorne/blob/master/images/stack_blueborne.PNG)
+
 ## 1. Installation
 
 Pour la démonstration de ces 2 vulnérabilités nous aurons besoins de 2 systèmes Linux distincts et 2 interfaces Bluetooth.
